@@ -5,12 +5,18 @@
     <title>Contact Me</title>
 </head>
 <body>
-        <img src="Icon.jpeg" alt="Mitch's Logo" width="300" height="300"/>
-        <h1>Mitchel Shephard</h1>
-        <p><em>Dev learning <strong>how to code</strong></em></p>
-        <p>Hello, my name is Mitchel. I am 25 living in London. I am learning how to code through this course on Udemy so that I can finally get job.</p>
-        <hr size="3" noshade>
         <h3>Contact Me</h3>
         Please use the following to contact me: Shephardmitchel@gmail.com
-</body>
+        <hr>
+        <form action="mailto:shephardmitchel@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name:</label>
+            <input type="text" name="yourName" value=""><br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value=""><br>
+            <label>Your Message:</label><br>
+            <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+            <input type="submit" name="">
+        </form>
+
+</body> 
 </html>
